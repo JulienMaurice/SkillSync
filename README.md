@@ -64,15 +64,14 @@ Skills are fundamental abilities crucial for athletic success. These are measure
 Scoring criteria define how performances in exercises are evaluated. These are customizable based on groups (e.g., age categories) and genders.
 
 ![Scoring Criteria Distribution](screenshots/scoring_criteria_distribution.jpg)
-
-- The image displays scoring criteria visualization
+- The image d
+- isplays scoring criteria visualization
 - Different criteria can be established for various groups and genders
 - This ensures fair and accurate performance evaluation across diverse athlete populations
 
 ### Scoring Criteria Demo
 
-[<img src="screenshots/scoring_criteria_distribution.jpg" width="50%">](video/scoring_criteria_demo.mp4 "Scoring Criteria Demo")
-
+https://github.com/user-attachments/assets/5d11e95b-6edb-4dbb-8d31-7ea9807c7ba3
 
 This video explains the process of setting up and adjusting scoring criteria, showing how the system can be customized for different groups and performance metrics.
 
@@ -117,7 +116,7 @@ Athletes' performances in various exercises are recorded and evaluated against t
 
 Performance data is collected across multiple exercises and over time, with a bulk import feature for efficiency.
 
-[<img src="screenshots/performance_page.jpg" width="50%">](video/demo_import.mp4 "Import Demo")
+https://github.com/user-attachments/assets/e10a2c2f-64e1-45f8-aa4b-84f6cd609ad7
 
 - The system supports bulk data import using tailored Excel template files
 - This feature allows coaches to efficiently input large amounts of data in batches
@@ -205,7 +204,7 @@ Scores from related exercises are aggregated to produce overall skill ratings fo
 
 #### Leaderboard Demo
 
-[<img src="screenshots/leaderboard.jpg" width="50%">](video/leaderboard_demo.mp4 "Leaderboard Demo")
+https://github.com/user-attachments/assets/36f6890f-f0bd-46a9-b641-33e4f2b2172e
 
 This demo presents the leaderboard functionality, demonstrating how coaches can compare athlete performances across various tests and metrics. The leaderboard feature provides a quick overview of top performers in different categories, helping coaches identify standout athletes and areas where others may need improvement.
 
@@ -285,7 +284,8 @@ After creation, reports can be converted to PDF format for easy distribution and
 
 Coaches can generate PDF reports in batch for multiple athletes or entire groups. This feature streamlines the process of creating and distributing performance reports to athletes and their contacts.
 
-[<img src="screenshots/report_1.jpg" width="50%">](video/demo_report_batch.mp4 "Report Batch Generation Demo")
+https://github.com/user-attachments/assets/767578e6-7550-45cc-9891-2e0f54492a0c
+
 
 <details>
   <summary>ℹ️ Click for more details</summary>
@@ -304,7 +304,8 @@ This feature significantly reduces the administrative workload for coaches, allo
 ## Additional Video Demonstrations
 
 ### Athlete Page Demo
-[<img src="screenshots/athlete_page.jpg" width="50%">](video/demo_athlete_page.mp4 "Athlete Page Demo")
+
+https://github.com/user-attachments/assets/940160df-8daa-45b0-9920-f37583441700
 
 <details>
   <summary>ℹ️ Click for more details</summary>
@@ -319,7 +320,8 @@ This video showcases the detailed athlete page, demonstrating how coaches can vi
 </details>
 
 ### Scoring Criteria Demo
-[<img src="screenshots/scoring_criteria_distribution.jpg" width="50%">](video/scoring_criteria_demo.mp4 "Scoring Criteria Demo")
+
+https://github.com/user-attachments/assets/8d479a37-3d53-4bdd-90e0-22da2a0c5851
 
 <details>
   <summary>ℹ️ Click for more details</summary>
