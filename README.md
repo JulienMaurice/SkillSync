@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [SkillSync: Athlete Rating and Performance Tracking](#alpine-performance-analytics-athlete-rating-and-performance-tracking)
+- [SkillSync: Athlete Rating and Performance Tracking](#skillsync-athlete-rating-and-performance-tracking)
   - [Table of Contents](#table-of-contents)
   - [Core Components of Athlete Evaluation](#core-components-of-athlete-evaluation)
     - [1. Skills and Exercises](#1-skills-and-exercises)
@@ -31,6 +31,7 @@
     - [Athlete Page Demo](#athlete-page-demo)
     - [Scoring Criteria Demo](#scoring-criteria-demo-1)
   - [Conclusion](#conclusion)
+  - [Technologies Used](#technologies-used)
 
 SkillSync is a web application designed for coaches to track, analyze, and improve athlete performance through a rating system. This presentation explains how athletes are rated, scored, and evaluated within the system.
 
@@ -42,7 +43,7 @@ SkillSync is a web application designed for coaches to track, analyze, and impro
 
 Skills are fundamental abilities crucial for athletic success. These are measured through specific exercises designed to assess an athlete's competency in various areas.
 
-![Exercise Page Settings](exercise_page_settings.jpg)
+![Exercise Page Settings](screenshots/exercise_page_settings.jpg)
 
 - This screenshot shows the exercise management interface
 - Coaches can configure different exercises and tests
@@ -62,14 +63,16 @@ Skills are fundamental abilities crucial for athletic success. These are measure
 
 Scoring criteria define how performances in exercises are evaluated. These are customizable based on groups (e.g., age categories) and genders.
 
-![Scoring Criteria Distribution](scoring_criteria_distribution.jpg)
+![Scoring Criteria Distribution](screenshots/scoring_criteria_distribution.jpg)
 
 - The image displays scoring criteria visualization
 - Different criteria can be established for various groups and genders
 - This ensures fair and accurate performance evaluation across diverse athlete populations
 
 ### Scoring Criteria Demo
-[📽️ Watch Demo](video/scoring_criteria_demo.mp4)
+
+[<img src="screenshots/scoring_criteria_distribution.jpg" width="50%">](video/scoring_criteria_demo.mp4 "Scoring Criteria Demo")
+
 
 This video explains the process of setting up and adjusting scoring criteria, showing how the system can be customized for different groups and performance metrics.
 
@@ -86,7 +89,7 @@ This video explains the process of setting up and adjusting scoring criteria, sh
 
 Athletes' performances in various exercises are recorded and evaluated against the established scoring criteria.
 
-![Performance Page](performance_page.jpg)
+![Performance Page](screenshots/performance_page.jpg)
 
 - This comprehensive interface provides tools for managing performance data
 - Coaches can freely select, filter, and sort raw performance data (without scores)
@@ -98,7 +101,7 @@ Athletes' performances in various exercises are recorded and evaluated against t
 - Coaches can create logical analyses by examining relationships between different exercises and their progression
 - This flexible approach allows for deep insights into athlete development and the effectiveness of training programs
 
-![Performance Page Selection](performance_page_selection.jpg)
+![Performance Page Selection](screenshots/performance_page_selection.jpg)
 
 <details>
   <summary>ℹ️ Click for more details</summary>
@@ -114,7 +117,7 @@ Athletes' performances in various exercises are recorded and evaluated against t
 
 Performance data is collected across multiple exercises and over time, with a bulk import feature for efficiency.
 
-[Watch Data Import Demo](video/demo_import.mp4)
+[<img src="screenshots/performance_page.jpg" width="50%">](video/demo_import.mp4 "Import Demo")
 
 - The system supports bulk data import using tailored Excel template files
 - This feature allows coaches to efficiently input large amounts of data in batches
@@ -166,7 +169,7 @@ Raw performance data is converted into standardized scores based on the scoring 
 
 Scores from related exercises are aggregated to produce overall skill ratings for each athlete.
 
-![Group Page Performance Visualization](group_page_performance_vizualisation.jpg)
+![Group Page Performance Visualization](screenshots/group_page_performance_vizualisation.jpg)
 
 - This screen displays the selection of exercises to set athlete performance of a same group on different graphs
 - It allows coaches to compare performances across multiple athletes in the same group
@@ -176,7 +179,7 @@ Scores from related exercises are aggregated to produce overall skill ratings fo
 
 ### 1. Individual Athlete Profiles
 
-![Individual Athlete Profile](athlete_page.jpg)
+![Individual Athlete Profile](screenshots/athlete_page.jpg)
 
 - Detailed athlete profiles display comprehensive performance data
 - Coaches can quickly assess an athlete's overall progress and specific skill levels
@@ -184,25 +187,25 @@ Scores from related exercises are aggregated to produce overall skill ratings fo
 
 ### 2. Performance Tracking
 
-![Group Page Performance Graph](group_page_performance_graph.jpg)
+![Group Page Performance Graph](screenshots/group_page_performance_graph.jpg)
 
 - Interactive graphs allow for visual tracking of progress over time
 - Trends and improvements can be easily identified
 
 ### 3. Athlete Comparisons
 
-![Group Page Athlete Comparison](group_page_athlete_comparison.jpg)
+![Group Page Athlete Comparison](screenshots/group_page_athlete_comparison.jpg)
 
 - Direct comparisons help identify relative strengths and weaknesses among team members
 - Coaches can use this information for targeted training strategy
 
 ### 4. Leaderboards
 
-![Leaderboard](leaderboard.jpg)
+![Leaderboard](screenshots/leaderboard.jpg)
 
 #### Leaderboard Demo
 
-[📽️ Watch Demo](video/leaderboard_demo.mp4)
+[<img src="screenshots/leaderboard.jpg" width="50%">](video/leaderboard_demo.mp4 "Leaderboard Demo")
 
 This demo presents the leaderboard functionality, demonstrating how coaches can compare athlete performances across various tests and metrics. The leaderboard feature provides a quick overview of top performers in different categories, helping coaches identify standout athletes and areas where others may need improvement.
 
@@ -213,8 +216,8 @@ This demo presents the leaderboard functionality, demonstrating how coaches can 
 
 The system generates detailed, custom reports for in-depth analysis of athlete performance.
 
-![Report Page 1](report_1.jpg)
-![Report Page 2](report_2.jpg)
+![Report Page 1](screenshots/report_1.jpg)
+![Report Page 2](screenshots/report_2.jpg)
 
 - Reports are tailored for each group, providing relevant and focused information
 - Each report consists of several sections:
@@ -229,7 +232,7 @@ The system generates detailed, custom reports for in-depth analysis of athlete p
 
 After creation, reports can be converted to PDF format for easy distribution and archiving.
 
-![PDF Generation Storage](pdf_gestion_storage.jpg)
+![PDF Generation Storage](screenshots/pdf_gestion_storage.jpg)
 
 - This screen shows the management interface for previously created PDFs
 - Coaches can:
@@ -243,7 +246,7 @@ After creation, reports can be converted to PDF format for easy distribution and
 
 ### 1. Group Management
 
-![Group Page](group_page.jpg)
+![Group Page](screenshots/group_page.jpg)
 
 - Group-specific statistics and performance data can be viewed
 - Simplifies management and analysis of athletes in similar categories
@@ -251,28 +254,28 @@ After creation, reports can be converted to PDF format for easy distribution and
 
 ### 2. Measurement Tracking
 
-![Measurement Tab](measurement_tab.jpg)
+![Measurement Tab](screenshots/measurement_tab.jpg)
 
 - Physical measurements can be recorded and monitored
 - This allows for tracking changes in height, weight, and other relevant metrics
 
 ### 3. Comments and Notes
 
-![Comment Tab](comment_tab.jpg)
+![Comment Tab](screenshots/comment_tab.jpg)
 
 - Coaches can add and view comments for each athlete
 - This feature helps in keeping track of important observations and feedback
 
 ### 4. Quick Search
 
-![Quick Search Feature](quick_search_feature.jpg)
+![Quick Search Feature](screenshots/quick_search_feature.jpg)
 
 - Rapidly find athletes, groups, or specific data
 - Improves workflow efficiency for coaches and administrators
 
 ### 5. Athlete List Management
 
-![Athlete List](athlete_list.jpg)
+![Athlete List](screenshots/athlete_list.jpg)
 
 - Provides an overview of all athletes in the system
 - Allows for quick navigation to individual athlete profiles
@@ -282,7 +285,7 @@ After creation, reports can be converted to PDF format for easy distribution and
 
 Coaches can generate PDF reports in batch for multiple athletes or entire groups. This feature streamlines the process of creating and distributing performance reports to athletes and their contacts.
 
-[Watch Batch Report Generation Demo](video/demo_report_batch.mp4)
+[<img src="screenshots/report_1.jpg" width="50%">](video/demo_report_batch.mp4 "Report Batch Generation Demo")
 
 <details>
   <summary>ℹ️ Click for more details</summary>
@@ -301,7 +304,7 @@ This feature significantly reduces the administrative workload for coaches, allo
 ## Additional Video Demonstrations
 
 ### Athlete Page Demo
-[📽️ Watch Demo](video/demo_athlete_page.mp4)
+[<img src="screenshots/athlete_page.jpg" width="50%">](video/demo_athlete_page.mp4 "Athlete Page Demo")
 
 <details>
   <summary>ℹ️ Click for more details</summary>
@@ -316,7 +319,7 @@ This video showcases the detailed athlete page, demonstrating how coaches can vi
 </details>
 
 ### Scoring Criteria Demo
-[📽️ Watch Demo](video/scoring_criteria_demo.mp4)
+[<img src="screenshots/scoring_criteria_distribution.jpg" width="50%">](video/scoring_criteria_demo.mp4 "Scoring Criteria Demo")
 
 <details>
   <summary>ℹ️ Click for more details</summary>
